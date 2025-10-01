@@ -1,4 +1,5 @@
 // --- TIMER LOGIC ---
+// Remember to set your actual relationship start date here!
 const relationshipStart = new Date('2024-02-14T20:00:00'); 
 const timerElement = document.getElementById('timer');
 
@@ -24,7 +25,7 @@ function updateTimer() {
 setInterval(updateTimer, 1000);
 updateTimer();
 
-// --- NEW MUSIC PLAYER LOGIC ---
+// --- MUSIC PLAYER LOGIC ---
 const playButton = document.getElementById('play-button');
 const song = document.getElementById('our-song');
 let isPlaying = false;

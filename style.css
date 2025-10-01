@@ -58,7 +58,6 @@ h1 {
     color: #555;
 }
 
-/* === NEW BUTTON STYLE === */
 #play-button {
     margin-top: 25px;
     background-color: #c2185b;
@@ -76,4 +75,3 @@ h1 {
     background-color: #d81b60;
     transform: scale(1.05);
 }
-/* ======================== */
