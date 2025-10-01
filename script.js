@@ -1,6 +1,6 @@
 // --- TIMER LOGIC ---
 // Remember to set your actual relationship start date here!
-const relationshipStart = new Date('2024-02-14T20:00:00'); 
+const relationshipStart = new Date('2024-08-26T20:00:00'); 
 const timerElement = document.getElementById('timer');
 
 function updateTimer() {
