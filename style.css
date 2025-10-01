@@ -1,0 +1,79 @@
+/* Import Google Fonts at the very top */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;600&display=swap');
+
+body {
+    background: linear-gradient(to right, #ffdde1, #ee9ca7);
+    color: #424242;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+}
+
+.timer-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    color: #d81b60;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    color: #c2185b;
+    animation: pulse 2s infinite ease-in-out;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+#timer {
+    font-size: 2.5em;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.label {
+    font-size: 0.5em;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: block;
+}
+
+.message {
+    margin-top: 20px;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* === NEW BUTTON STYLE === */
+#play-button {
+    margin-top: 25px;
+    background-color: #c2185b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#play-button:hover {
+    background-color: #d81b60;
+    transform: scale(1.05);
+}
+/* ======================== */
